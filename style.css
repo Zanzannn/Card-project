@@ -1,0 +1,430 @@
+@font-face {
+  font-family: 'Gilroy', 'Arial Narrow', Arial, sans-serif;
+  src: url(./fonts/Gilroy-Regular.woff);
+} 
+
+@font-face {
+  font-family: 'Gilroy-Bold', 'Arial Narrow', Arial, sans-serif;
+  src: url(./fonts/Gilroy-Bold.woff);
+}
+ 
+* {
+  margin: 0;
+  padding: 0;
+ }
+
+body {
+  background: #E5E5E5;
+}
+
+.wrapper {
+  width: 1440px;
+  margin: 5px auto;
+  font-family: 'Gilroy';
+  font-size: 18px;
+  line-height: 22px;
+  color: black;
+}
+
+code {
+ color: rgb(153, 155, 155); 
+}
+
+header {
+  padding: 35.77px 34px 38px 80px;
+  background: #FAFAFA;
+  width: 1326px;
+  height: 42.23px;
+} 
+
+.logo {
+  float: left;
+  margin: 0px 433px 0 0;
+  padding: 4.6px 0 0 0;
+  width: 41px;
+  height: 39px;
+}
+
+.navigation {
+  margin: 0px 340px 0 0;
+  float: left;
+}
+
+.link {
+  float: left;
+  margin: 0 31px 0 0;
+  padding: 11.6px 0 0 0;
+  text-decoration: none;
+  color: black;
+}
+
+.btn {
+  margin: 0;
+  padding: 10.35px 20.85px 7px 18.85px;
+  font-size: 18px;
+  line-height: 22px;
+  box-sizing: border-box;
+  border: 1px solid #F7941E;
+  border-radius: 5px;
+}
+
+.btn-header1, .btn-feature1 {
+  float: right;
+  background: #FAFAFA;
+  color: #F7941E;
+}
+
+.btn-header2 {
+  margin-left: 162px;
+  float: left;
+  background: #F7941E;
+  color: #FAFAFA;
+  }
+
+.main, .feature, .posts{
+  width: 1440px;
+  background: #F1F1F2;
+}
+
+.main {
+  height: 700px;
+}
+
+.article1 {
+  width:50%;
+  float: left;
+}
+
+H1 {
+  display: inline-block;
+  line-height: 64px;
+  font-size: 56px;
+  padding-top: 154px;
+  padding-left: 162px;
+  padding-right: 145px; 
+}
+
+.TextArticle1{
+  display: inline-block;
+  padding-top: 36px;
+  padding-bottom: 52px;
+  padding-left: 162px;
+  padding-right: 145px;
+}
+
+.feature {
+  height: 611px;
+}
+
+.article2 {
+  width: 50%;
+  float: right;
+}
+
+.article12 {
+  width: 50%;
+  float: left;
+}
+
+.article22 {
+  width: 50%;
+  float: right;
+  text-align: justify;
+  font-size: 20px;
+  line-height: 28.13px;
+  }
+
+H2 {
+  font-size: 32px;
+  line-height: 45px;
+  margin-bottom: 23px;
+}
+
+.TextArticle2{
+  display: inline-block;
+  padding-top: 164px;
+  padding-bottom: 56px;
+  padding-left: 102px;
+  padding-right: 166px;
+  }
+
+.btn-feature1 {
+  margin: 0 453px 104px 0;
+}
+
+.posts {
+ width: 1170px;
+ margin: 0;
+ background-color: #FFFFFF;
+ padding-left: 135px;
+ padding-right: 135px;
+}
+
+.PostsImg {
+  display: block;
+  margin: 0;
+}
+
+.PostsText {
+text-align: center;
+margin: 0;
+padding-top: 96px;
+padding-bottom: 64px;
+}
+
+.PostsText1 {
+  font-size: 32px;
+  line-height: 38.4px;
+  padding-bottom: 23px;
+}
+
+.PostsText2 {
+  font-size: 18px;
+  line-height: 24.47px;
+}
+
+.HappyB, .Anniversary, .VDay, .MerryX {
+  display: inline-block;
+  background-color: #FFFFFF;
+  width: 270px;
+  margin-right: 20px;
+  margin-left: 0px;
+  padding-top: 0;
+  margin-bottom: 137px;
+}
+
+.Anniversary, .VDay, .MerryX {
+  background-color: #FAFAFA;
+}
+
+.TextB, .TextA, .TextV, .TextMX {
+  padding-top: 24px;
+  padding-right: 30px;
+  padding-bottom: 74px;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.MerryX {
+  margin-right: 0;
+}
+
+.Bposts1, .Aposts2, .Vposts3, .MXposts4 {
+  font-size: 14px;
+  font-weight: 19.03px;
+  text-decoration: none;
+  padding-bottom: 24px;
+}
+
+.orangeColor {
+ width: 970px;
+ background-color: #F7941E;
+ padding-left: 235px;
+ padding-right: 235px;
+}
+
+.OrangeText{
+  position: absolute;
+  padding-top: 81px;
+  padding-bottom: 69px;
+  font-size: 32px;
+  line-height: 45px;
+}
+
+.OrangeButtom{
+  position: relative;
+  left:58%;
+  padding-top: 96px;
+  padding-bottom: 94px;
+}
+
+.btn-black {
+  background-color: #231F20;
+  color: #FFFFFF;
+}
+
+.btn-orange {
+  background-color: #F7941E;
+  color: #FFFFFF;
+  border: 1px solid #231F20;
+}
+
+.blogs {
+  width: 1170px;
+  background-color: #FFFFFF;
+  padding-left: 135px;
+  padding-right: 135px;
+}
+
+h3 {
+  font-size: 32px;
+  text-align: center;
+  line-height: 38.4px;
+  padding-top: 88px;
+  padding-bottom: 22px;
+}
+
+h4 {
+  font-size: 18px;
+  text-align: center;
+  line-height: 24.4px;
+  padding-bottom: 74px;
+}
+
+.Media {
+background: #231F20;
+color: #FFFFFF;
+height: 370px;
+}
+
+.MediaImg {
+  position: relative;
+  display: inline-block;
+}
+
+.MediaText {
+  position: absolute;
+  display: inline-block;
+  color: #FFFFFF;
+  padding-left: 78px;
+  width: 570px;
+  padding-right: 200px;
+}
+
+.MediaText1 {
+  padding-top: 69px;
+  padding-bottom: 27px;
+  font-size: 14px;
+  line-height: 19.69px;
+}
+
+.MediaText2 {
+  font-size: 48px;
+  line-height: 57.6px;  
+   padding-bottom: 60px;
+}
+
+.MediaText3 {
+  font-size: 18px;
+  line-height: 25.31px;
+  padding-bottom: 49px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.MediaWindows {
+  padding-top: 40px;
+}
+
+.MediaWindows1, .MediaWindows2 {
+  width: 570px;
+  padding-bottom: 50px;
+  display: inline-block;
+  margin-bottom: 60px;
+  color: black;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}  
+
+.MediaWindows2 {
+  box-shadow: none;
+}
+
+.WindowsText {
+  padding: 48px 48px 16px 48px;
+  color: black;
+  text-align: left;
+}
+
+.WindowsText1 {
+  font-size: 24px;
+  line-height: 33.75px;
+  padding-bottom: 16px;
+}
+
+.WindowsText2 {
+  font-size: 18px;
+  line-height: 25.31px;
+  padding-bottom: 16px;
+}
+
+.WindowsText3 {
+  font-size: 14px;
+  line-height: 19.69px;
+  text-decoration: none;
+  color: #060606;
+}
+
+footer {
+  width: 1440px;
+  background: #FAFAFA;
+}
+
+.linkFL1, .linkFL2, .linkFLogo, .linkFR1, .linkFR2  {
+  float: left;
+  text-decoration: none;
+  color: black;
+  padding-top: 115px;
+  padding-bottom: 53px;
+  font-size: 14px;
+  line-height: 19.69px;
+}
+
+.linkFL1 {
+  margin-right: 81px;
+  padding-left: 406px;
+  }
+
+.linkFL2 {
+  margin-right: 141px;
+}
+
+.linkFLogo {
+  margin-right: 141px;
+}
+
+.linkFR1 {
+  margin-right: 54px;
+}
+
+.border {
+  margin-left: 220px;
+  border: 1px solid #000000;
+  width: 1000px;
+  display: inline-block;
+  font-size: 14px;
+  margin-bottom: 55.8px;
+}
+
+.linkFc, .linkB, .linkPh, .linkYouTube, .linkPinterest {
+  text-decoration: none;
+   padding-top: 55.8px;
+  padding-bottom: 127px;
+}
+
+.linkFc {
+  padding-left: 572.8px;
+  padding-right: 25.6px;
+}
+
+.linkB, .linkPh, .linkYouTube {
+  padding-right: 25.6px;
+} 
+
+.HappyEnd {
+  margin-top: 72.8px;
+  margin-bottom: 35px;
+}
+
+.Data, .Politi {
+  font-size: 14px;
+  line-height: 19.69px;
+  display: inline-block;
+  padding-bottom: 35px;
+}
+
+.Data {
+  padding-left: 618px;
+  padding-right: 14px;
+}
+
+    
